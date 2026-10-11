@@ -5,7 +5,7 @@
 
 A full-stack, dynamic e-commerce website designed for a luxury cosmetic brand. This project features a complete customer-facing storefront and a secure admin dashboard for managing products, users, and orders.
 
-**🔗 [View Live Demo]([INSERT YOUR LIVE DEMO LINK HERE])**
+**🔗 [View Live Demo]([http://michaelphotofolio.atwebpages.com/glowbeauty])**
 
 ---
 
