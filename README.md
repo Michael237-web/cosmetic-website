@@ -3,7 +3,7 @@
 ![Project Status](https://img.shields.io/badge/status-active-success.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-A modern, responsive e-commerce website designed for a luxury cosmetic brand. This project focuses on clean UI/UX design, mobile-first responsiveness, and smooth user interactions to simulate a real-world online shopping experience.
+A full-stack, dynamic e-commerce website designed for a luxury cosmetic brand. This project features a complete customer-facing storefront and a secure admin dashboard for managing products, users, and orders.
 
 **🔗 [View Live Demo]([INSERT YOUR LIVE DEMO LINK HERE])**
 
@@ -11,21 +11,31 @@ A modern, responsive e-commerce website designed for a luxury cosmetic brand. Th
 
 ## 📸 Screenshots
 
-*Replace these placeholders with actual screenshots of your website. You can drag and drop images directly into GitHub.*
+Here is a preview of the key pages in the application:
 
-| Home Page | Product Grid | Mobile View |
+| Home Page | About Us | Login |
 | :---: | :---: | :---: |
-| ![Home]([INSERT IMAGE LINK]) | ![Products]([INSERT IMAGE LINK]) | ![Mobile]([INSERT IMAGE LINK]) |
+| ![Home](cosmetics/screenshoots/home.png) | ![About](cosmetics/screenshoots/about.png) | ![Login](cosmetics/screenshoots/login.png) |
+
+| Products | Services |
+| :---: | :---: |
+| ![Products](cosmetics/screenshoots/products.png) | ![Services](cosmetics/screenshoots/services.png) |
 
 ---
 
 ## ✨ Features
 
-- **Responsive Design:** Fully optimized for mobile, tablet, and desktop screens using Flexbox and CSS Grid.
-- **Product Catalog:** A dynamic grid displaying cosmetic products with images, names, prices, and ratings.
-- **Interactive Cart:** A functional "Add to Cart" button that updates the cart count in the navigation bar.
-- **Modern UI:** A clean, minimalist aesthetic with soft color palettes and elegant typography suitable for a beauty brand.
-- **Smooth Animations:** Subtle hover effects and page transitions to enhance user experience.
+**Customer Frontend:**
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop screens.
+- **Dynamic Product Catalog:** Products are loaded dynamically from the backend, allowing for easy updates.
+- **User Authentication:** Secure login and registration system for customers.
+- **Service Pages:** Dedicated pages for brand information and services.
+
+**Admin Dashboard (Backend):**
+- **Secure Admin Login:** Separate authentication for administrators.
+- **Dashboard Overview:** A central hub (`admin-dashboard.php`) to manage the site.
+- **Product Management:** Ability to add, edit, and delete cosmetic products.
+- **User Management:** View and manage registered customers.
 
 ---
 
@@ -36,12 +46,14 @@ A modern, responsive e-commerce website designed for a luxury cosmetic brand. Th
 - CSS3 (Flexbox, Grid, Custom Properties)
 - JavaScript (ES6+)
 
+**Backend:**
+- PHP (Server-side scripting)
+- MySQL (Database for products, users, and orders)
+
 **Tools & Deployment:**
 - Git & GitHub for version control
-- [Vercel / Netlify / GitHub Pages] for hosting
+- [XAMPP / WAMP / MAMP] for local development
 - [VS Code] as the code editor
-
-*(If you used React, Tailwind, or a backend, change this list accordingly)*
 
 ---
 
@@ -50,10 +62,12 @@ A modern, responsive e-commerce website designed for a luxury cosmetic brand. Th
 To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
-You only need a modern web browser. No build tools are required.
+You will need a local server environment that supports PHP and MySQL.
+- [XAMPP](https://www.apachefriends.org/index.html) (Recommended for beginners)
+- Or [WAMP](https://www.wampserver.com/en/) / [MAMP](https://www.mamp.info/en/)
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the repository into your local server's root directory (e.g., `htdocs` for XAMPP):
    ```bash
    git clone https://github.com/Michael237-web/cosmetic-website.git
